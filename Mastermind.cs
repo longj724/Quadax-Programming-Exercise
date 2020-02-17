@@ -32,7 +32,7 @@ namespace MastermindQuadax
 
                 string formattedGuess = playerGuess.ToString();
 
-                // Compare Guess to the random number
+                // Compare guess to the random number
                 for (int j = 0; j < 4; ++j)
                 {
                     // If the digit is in the correct position
